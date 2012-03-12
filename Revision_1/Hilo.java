@@ -24,7 +24,7 @@ public class Hilo implements Runnable{
 	while(true){
 	    long end = System.currentTimeMillis();
 	    long diff = end - start;
-	    if(diff >= 3000){
+	    if(diff >= 300000){
 		tempMascota.modHilo();
 		System.out.print("\n\n~~Pasaron 5 minutos~~\n\n");
 		tempImprimir.imprEstad(1);
